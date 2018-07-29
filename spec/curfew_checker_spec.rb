@@ -75,7 +75,7 @@ describe "#platinum_curfew_checker" do
 
   end
 
-  it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 hrs left" do 
+  it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 rs left" do 
     expect(platinum_curfew_checker(9, 11)).to eq ("You have 2 hour(s) left to keep having fun!")
   end
 end
