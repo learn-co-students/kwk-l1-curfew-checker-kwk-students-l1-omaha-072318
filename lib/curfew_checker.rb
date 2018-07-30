@@ -1,5 +1,7 @@
 def simple_curfew_checker(time)
   # code goes here
+  if time >= 11
+    puts "It's time to go to bed"
 end
 
 def curfew_checker(time)
